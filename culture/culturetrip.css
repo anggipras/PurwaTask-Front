@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding-top: 0;
+    position: relative;
+    top: 75px;
+}
+
+/* navbar start */
+.barbar {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.menubar {
+    font-size: 13px;
+}
+
+.signup {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+.signup:hover {
+    background-color: rgb(99, 219, 0);
+    border-color: rgb(99, 219, 0);
+    color: black;
+}
+
+li {
+    padding-left: 12px;
+}
+
+.dropdown-header {
+    color: black;
+}
+
+.active {
+    background-color: #c8e3d9 !important;
+    color: black !important;
+}
+
+.dropdown-menu {
+    margin-left: -160px;
+}
+
+.uss {
+    padding-right: 80px;
+}
+
+.euro {
+    padding-right: 135px;
+}
+
+.pounds {
+    padding-right: 73px;
+}
+/* navbar end */
+
+.blm {
+    background-color: #ecf2f9;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    z-index: 1;
+}
+
+/* center start */
+.centerdisplay {
+    line-height: 0%;
+}
+
+.centerdisplay > .words {
+    position: relative;
+    top: -230px;
+    margin-left: 420px;
+    margin-right: 350px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 5px rgb(80, 80, 80)
+}
+
+.has-search {
+    position: absolute;
+    top: 210px;
+    left: 33%;
+    width: 500px;
+}
+
+.form-control {
+    height: 60px;
+    padding-top: 5px;
+    width: 500px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control:focus {
+    outline: greenyellow;
+    border-color: greenyellow;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.7rem;
+    height: 2.375rem;
+    line-height: 4rem;
+    text-align: center;
+    pointer-events: none;
+    color: black;
+    font-size: 23px;
+}
+
+.dropdowncss {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {background-color: #89c0ff38}
+
+.dropdowncss:hover .dropdown-content {
+    display: block;
+}
+
+/* center end */
+
+.main {
+    margin: 100px;
+}
+
+/* food start */
+.food {
+    font-size: 17px;
+}
+
+.food .ctnoe {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.info {
+    width: 91%;
+    height: 70px;
+    position: relative;
+    top: -50px;
+    left: 16px;
+}
+
+.satu {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.dua {
+    font-size: 15px;
+}
+
+.foodimeji{
+    transition: 500ms;
+}
+.foodimeji:hover{
+    transform: scale(1.05);
+}
+/* food end */
+
+/* outdoor start */
+.outdoor {
+    font-size: 17px;
+}
+
+.outdoor .ucooe {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.seedo {
+    font-weight: bolder;
+    font-size: 12px;
+    color: red;
+}
+
+.tiga {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.outimeji{
+    transition: 500ms;
+}
+.outimeji:hover{
+    transform: scale(1.15);
+}
+/* outdoor end */
+
+/* cities start */
+.cities {
+    font-size: 17px;
+    margin-top: 100px;
+}
+
+.cities .ec {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.city {
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+}
+
+.empat {
+    font-size: 13px;
+}
+
+.cityimeji{
+    transition: 500ms;
+    border-radius: 10px;
+}
+.cityimeji:hover{
+    transform: scale(1.13);
+}
+/* cities end */
+
+/* banner start */
+div.banner {
+    margin-top: 70px !important;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.rtny {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 90%;
+}
+
+.leftwords {
+    padding: 50px;
+    padding-right: 200px;
+}
+
+.bannerright {
+    border-radius: 0px 12px 12px 0px;
+}
+
+.letsgo {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    background-color: rgb(99, 219, 0);
+    border-color: black;
+    color: black;
+}
+
+.letsgo:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+/* banner end */
+
+/* footer start */
+.footer {
+    background-color: black;
+}
+
+.rowfoot {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.fab {
+    font-size: 20px;
+}
+
+.address {
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.lasticon {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.license {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+/* footer end */
+
+/* div {
+    border: 1px solid orange;
+}
+nav {
+    border: 1px solid red;
+} */

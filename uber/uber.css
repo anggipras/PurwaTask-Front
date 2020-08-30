@@ -1,0 +1,621 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* div{
+    border: 1px solid orange;
+} */
+
+body {
+    margin: 0;
+    padding-top: 0;
+    position: relative;
+    top: 60px;
+}
+
+/* navbar start */
+.navbar{
+    position: fixed;
+    overflow: hidden;
+    width: 92%;
+    top: 0;
+    z-index: 5;
+    background-color: black;
+    display: flex;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+}
+.rightbar{
+    color: white;
+    display: flex;
+    width: 43%;
+    justify-content: space-between;
+}
+
+.principles:hover, .pricing:hover, .matching:hover, .open:hover {
+    color: blue;
+    transition: 400ms;
+    cursor: pointer;
+}
+/* navbar end */
+
+
+/* news start */
+.news {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.latenews {
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latenews:hover {
+    cursor: pointer;
+}
+
+.morenews {
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.morenews:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.mnews {
+    transition: 300ms;
+}
+
+.morenews:hover .mnews {
+    transform: translate(3px);
+}
+/* news end */
+
+
+/* video start */
+.video {
+    position: relative;
+}
+
+.thewords {
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    right: 400px;
+}
+
+.marketplace {
+    font-size: 25px;
+}
+
+.wmu {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.info {
+    margin-right: 230px;
+    padding-top: 14px;
+    font-size: 18px;
+}
+
+.btn-watchvid{
+    margin-top: 40px;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    width: 17%;
+    height: 50px;
+    border: 1px solid white;
+}
+.watchvid{
+    transition: 500ms;
+    color: black;
+}
+.btn-watchvid:hover{
+    cursor: pointer;
+}
+.btn-watchvid:hover .watchvid{
+    transform:translate(10px,0);
+}
+/* video end */
+
+
+/* guide start */
+.guide {
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.gwords {
+    color: black;
+}
+
+.principless {
+    font-size: 27px;
+}
+
+.wgum {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.secinfo {
+    margin-right: 470px;
+    padding-top: 10px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes {
+    margin-right: 70px;
+    z-index: 3;
+}
+
+.pericon {
+    padding-top: 10px;
+    padding-left: 23px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.boxinfo {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-closer{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 17%;
+    height: 50px;
+    border: 1px solid black;
+}
+.closer{
+    transition: 500ms;
+}
+.btn-closer:hover{
+    cursor: pointer;
+}
+.btn-closer:hover .closer{
+    transform:translate(10px,0) ;
+}
+/* guide end */
+
+
+/* jumbo start */
+.jumbotron{
+    margin-top: 100px;
+    display: flex;
+    padding: 60px 140px 60px 90px;
+    position: relative;
+}
+.backcolor {
+    background-color: #fcefd4;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 200px;
+    width: 85.8%;
+    height: 100%;
+}
+.kiri{
+    margin-right: 50px;
+    margin-top: 50px;
+    z-index: 3;
+    width: 500px;
+    height: 300px;
+}
+.kanan {
+    margin-left: 100px;
+    z-index: 3;
+    width: 50%;
+}
+.kanan h3{
+    font-size: 57px;
+    margin-bottom: 10px;
+}
+.Price {
+    font-size: 33.6px;
+    margin-bottom: 10px;
+}
+.tulis{
+    font-size: 17px;
+    line-height: 30.4px;
+    margin-bottom: 30px;
+}
+.btn-close{
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    width: 23%;
+    height: 50px;
+    border: 1px solid black;
+}
+.close{
+    transition: 500ms;
+}
+.btn-close:hover{
+    cursor: pointer;
+}
+.btn-close:hover .close{
+    transform:translate(10px,0) ;
+}
+.btn-watch{
+    background-color: #febf43;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    width: 23%;
+    height: 50px;
+    border: 1px solid  #febf43;
+}
+.watch{
+    transition: 500ms;
+    color: white;
+}
+.btn-watch:hover{
+    cursor: pointer;
+}
+.btn-watch:hover .watch{
+    transform:translate(10px,0);
+    color: black;
+}
+/* jumbo end */
+
+
+/* 5boxes start */
+.container2{
+    margin-right: 280px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.container3{
+    margin-right: 390px;
+    margin-left: 200px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.container4{
+    margin-right: 280px;
+    margin-left: 200px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.box{
+    flex: auto;
+    height: 150px;
+    z-index: 3;
+}
+
+.titles {
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.titles:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.arrowtit {
+    transition: 300ms;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.titles:hover .arrowtit {
+    transform: translate(3px);
+}
+.tinfos {
+    margin-bottom: 100px;
+    line-height: 30px;
+    width: 80%;
+}
+/* 5boxes end */
+
+
+/* jumbo2 start */
+.jumbotron2 {
+    margin-top: 200px;
+    display: flex;
+    padding: 60px 140px 60px 90px;
+    position: relative;
+}
+.backcolor2 {
+    background-color: #dff7e6;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 200px;
+    width: 85.8%;
+    height: 100%;
+}
+.kiri2 {
+    margin-left: 50px;
+    margin-top: 100px;
+    z-index: 3;
+    width: 500px;
+    height: 200px;
+}
+.kanan2 {
+    margin-left: 100px;
+    z-index: 3;
+    width: 50%;
+}
+.kanan2 h3{
+    font-size: 57px;
+    margin-bottom: 10px;
+}
+.Price2 {
+    font-size: 33.6px;
+    margin-bottom: 10px;
+}
+.tulis2 {
+    font-size: 17px;
+    line-height: 30.4px;
+    margin-bottom: 30px;
+}
+.btn-close{
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    width: 23%;
+    height: 50px;
+    border: 1px solid black;
+}
+.close{
+    transition: 500ms;
+}
+.btn-close:hover{
+    cursor: pointer;
+}
+.btn-close:hover .close{
+    transform:translate(10px,0) ;
+}
+.btn-watch2 {
+    background-color: #4bb274;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    width: 23%;
+    height: 50px;
+    border: 1px solid  #4bb274;
+}
+.watch2 {
+    transition: 500ms;
+    color: white;
+}
+.btn-watch2:hover {
+    cursor: pointer;
+}
+.btn-watch2:hover .watch2 {
+    transform:translate(10px,0);
+    color: black;
+}
+.container5 {
+    margin-right: 280px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.tinfos2 {
+    margin-bottom: 100px;
+    line-height: 30px;
+    width: 45%;
+}
+/* jumbo2 end */
+
+
+/* jumbo3 start */
+.jumbotron3 {
+    margin-top: 233px;
+    display: flex;
+    padding: 60px 140px 60px 90px;
+    position: relative;
+}
+.backcolor3 {
+    background-color: #eadfff;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 200px;
+    width: 85.8%;
+    height: 100%;
+}
+.kiri3{
+    margin-left: 70px;
+    z-index: 3;
+    width: 450px;
+    height: 320px;
+}
+.kanan3 {
+    margin-left: 100px;
+    z-index: 3;
+    width: 50%;
+}
+.kanan3 h3{
+    font-size: 57px;
+    margin-bottom: 10px;
+}
+.Price3 {
+    font-size: 33.6px;
+    margin-bottom: 10px;
+}
+.tulis3 {
+    font-size: 17px;
+    line-height: 30.4px;
+    margin-bottom: 30px;
+}
+.btn-watch3 {
+    background-color: #ae9eff;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    width: 23%;
+    height: 50px;
+    border: 1px solid  #ae9eff;
+}
+.watch3 {
+    transition: 500ms;
+    color: white;
+}
+.btn-watch3:hover {
+    cursor: pointer;
+}
+.btn-watch3:hover .watch3 {
+    transform:translate(10px,0);
+    color: black;
+}
+.container6 {
+    margin-right: 280px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    display: flex;
+}
+/* jumbo3 end */
+
+
+/* road start */
+.road {
+    position: absolute;
+    top: 1150px;
+    left: 250px;
+    z-index: 2;
+}
+.roadimg {
+    width: 95%;
+}
+.road2 {
+    position: absolute;
+    top: 2264px;
+    right: 59px;
+    z-index: -1;
+}
+.roadimg2 {
+    width: 100%;
+    height: 530px;
+}
+.road3 {
+    position: absolute;
+    top: 2794px;
+    right: 60px;
+    left: 100px;
+    z-index: -1;
+}
+.roadimg3 {
+    width: 100%;
+}
+.road4 {
+    position: absolute;
+    top: 2926px;
+    left: 103px;
+    z-index: 2;
+}
+.roadimg4 {
+    width: 100%;
+    height: 775px;
+}
+.road5 {
+    position: absolute;
+    top: 3700px;
+    right: 60px;
+    left: 103px;
+}
+.roadimg5 {
+    width: 100%;
+}
+/* road end */
+
+/* footer start */
+.footer {
+    background-color: black;
+}
+.wrapper {
+    padding-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.foot {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.foot:hover {
+    cursor: pointer;
+}
+.rowfoot {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.fab {
+    font-size: 20px;
+}
+.address {
+    color: white;
+    font-size: 15px;
+    line-height: 13px;
+    margin-right: 150px;
+}
+.license {
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rowfoot p:hover {
+    color: blue;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.rowfoot b:hover {
+    color: blue;
+    transition: 400ms;
+    cursor: pointer;
+}
+/* footer end */
